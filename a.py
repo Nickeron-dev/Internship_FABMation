@@ -10,9 +10,4 @@ shoulder_servo = AngularServo(SHOULDER_SERVO_PORT, min_pulse_width=0.0006, max_p
 pen_height_servo = AngularServo(PEN_HEIGHT_SERVO_PORT, min_pulse_width=0.0006, max_pulse_width=0.0023)
 
 while (True):
-	servo.angle = 90
-	sleep(2)
-	servo.angle = 0
-	sleep(2)
-	servo.angle = -90
-	sleep(2)
+	
